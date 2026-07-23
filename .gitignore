@@ -1,0 +1,14 @@
+# Local task data — everyone's list is their own
+tasks.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
