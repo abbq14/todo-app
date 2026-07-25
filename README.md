@@ -3,7 +3,8 @@
 A small command-line to-do list in pure Python. Tasks are saved to a plain text
 file so they survive after the program closes.
 
-No frameworks, no external libraries, no AI — just the standard language.
+Built on the standard language, with [`rich`](https://github.com/Textualize/rich)
+for a colored table interface.
 
 ## Why this exists
 
@@ -13,14 +14,14 @@ lists, string methods, and file handling.
 
 ## Status
 
-🚧 **Work in progress.**
+✅ **Working.**
 
-| Function | State |
+| Feature | State |
 |---|---|
-| `show_tasks(tasks)` | ✅ Working |
-| `save_tasks(tasks, filename)` | ✅ Working |
-| `load_tasks(filename)` | 🔧 In progress |
-| Interactive menu | ⬜ Not started |
+| Show tasks (colored table) | ✅ Working |
+| Add a task | ✅ Working |
+| Mark a task done | ✅ Working |
+| Save / load from file | ✅ Working |
 
 ## How it stores data
 
@@ -39,6 +40,7 @@ non-Latin titles are preserved.
 ## Running it
 
 ```bash
+pip install rich
 python todo.py
 ```
 
